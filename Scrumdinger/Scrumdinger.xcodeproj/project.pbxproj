@@ -16,6 +16,10 @@
 		EDE4693029829B3E00F73E91 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE4692F29829B3E00F73E91 /* CardView.swift */; };
 		EDE4693229829F5200F73E91 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE4693129829F5200F73E91 /* TrailingIconLabelStyle.swift */; };
 		EDE469342982A3A700F73E91 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE469332982A3A700F73E91 /* ScrumsView.swift */; };
+		EDE469362982BE5F00F73E91 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE469352982BE5F00F73E91 /* DetailView.swift */; };
+		EDE469382983DAD000F73E91 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE469372983DAD000F73E91 /* DetailEditView.swift */; };
+		EDE4693A2983FE1E00F73E91 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE469392983FE1E00F73E91 /* ThemeView.swift */; };
+		EDE4693C29840A7C00F73E91 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE4693B29840A7C00F73E91 /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		EDE4692F29829B3E00F73E91 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EDE4693129829F5200F73E91 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		EDE469332982A3A700F73E91 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		EDE469352982BE5F00F73E91 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		EDE469372983DAD000F73E91 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		EDE469392983FE1E00F73E91 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		EDE4693B29840A7C00F73E91 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,10 @@
 				EDE4692F29829B3E00F73E91 /* CardView.swift */,
 				EDE4693129829F5200F73E91 /* TrailingIconLabelStyle.swift */,
 				EDE469332982A3A700F73E91 /* ScrumsView.swift */,
+				EDE469352982BE5F00F73E91 /* DetailView.swift */,
+				EDE469372983DAD000F73E91 /* DetailEditView.swift */,
+				EDE4693B29840A7C00F73E91 /* ThemePicker.swift */,
+				EDE469392983FE1E00F73E91 /* ThemeView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -160,12 +172,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE4693C29840A7C00F73E91 /* ThemePicker.swift in Sources */,
 				EDE4692E2982971000F73E91 /* DailyScrum.swift in Sources */,
+				EDE469362982BE5F00F73E91 /* DetailView.swift in Sources */,
+				EDE469382983DAD000F73E91 /* DetailEditView.swift in Sources */,
 				EDE4693229829F5200F73E91 /* TrailingIconLabelStyle.swift in Sources */,
 				EDE4692C298295B700F73E91 /* Theme.swift in Sources */,
 				EDE469342982A3A700F73E91 /* ScrumsView.swift in Sources */,
 				EDE4691F29828E4A00F73E91 /* MeetingView.swift in Sources */,
 				EDE4691D29828E4A00F73E91 /* ScrumdingerApp.swift in Sources */,
+				EDE4693A2983FE1E00F73E91 /* ThemeView.swift in Sources */,
 				EDE4693029829B3E00F73E91 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
