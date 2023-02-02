@@ -12,11 +12,9 @@ struct ThemePicker: View {
     
     var body: some View {
         Picker("Theme", selection: $selection) {
-            VStack {
-                ForEach(Theme.allCases) { theme in
-                        ThemeView(theme: theme)
-                        .tag(theme)
-                }
+            ForEach(Theme.allCases) { theme in
+                ThemeView(theme: theme)
+                    .tag(theme)
             }
         }
     }
@@ -24,6 +22,6 @@ struct ThemePicker: View {
 
 struct ThemePicker_Previews: PreviewProvider {
     static var previews: some View {
-        ThemePicker(selection: .constant(.bubblegum))
+        ThemePicker(selection: .constant(.periwinkle))
     }
 }

@@ -11,6 +11,7 @@ struct MeetingHeaderView: View {
     let secondsElapsed: Int
     let secondsRemaining: Int
     let theme: Theme
+    
     private var totalSeconds: Int {
         secondsElapsed + secondsRemaining
     }
@@ -40,11 +41,11 @@ struct MeetingHeaderView: View {
                         .labelStyle(.trailingIcon)
                 }
             }
-            .accessibilityElement(children: .ignore)
-            .accessibilityLabel("Time remaining")
-            .accessibilityValue("\(minutesRemaining) minutes")
-            .padding([.top, .horizontal])
         }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Time remaining")
+        .accessibilityValue("\(minutesRemaining) minutes")
+        .padding([.top, .horizontal])
     }
 }
 
